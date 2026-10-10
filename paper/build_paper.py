@@ -35,7 +35,7 @@ OUT = ROOT / "paper" / "EDM_TWR_paper.docx"
 FONT = "Times New Roman"
 TITLE = ("How Well Do Tool Wear Rate Models for Die-Sinking EDM Transfer to a New Laboratory? "
          "A Leave-One-Paper-Out Evaluation on Data from Ten Published Studies")
-GUIDE = "Shanthala Kollur"
+GUIDE = "Dr. Shanthala Kollur"
 COL_W = 3.45  # usable column width in inches (two columns on letter paper)
 NONLINEAR = ["RF", "XGBoost", "ANN", "SVR", "Stacked"]
 MODELS = ["Ridge"] + NONLINEAR

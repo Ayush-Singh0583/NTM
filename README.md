@@ -2,7 +2,7 @@
 
 Data and code for the paper *How Well Do Tool Wear Rate Models for Die-Sinking EDM Transfer to a New
 Laboratory? A Leave-One-Paper-Out Evaluation on Data from Ten Published Studies*
-(Adithya D, Billava Srujan Macha, Ayush Singh and Shanthala Kollur; RV Institute of Technology and Management).
+(Adithya D, Billava Srujan Macha, Ayush Singh and Dr. Shanthala Kollur; RV Institute of Technology and Management).
 
 **Main result.** On 156 runs from 10 published studies, random 5-fold cross-validation gives R² ≈ 0.6 on
 log10(TWR), but no model transfers reliably to a held-out study. Every nonlinear model (RF, XGBoost, ANN,
