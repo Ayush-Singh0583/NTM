@@ -1,0 +1,11 @@
+study,ref,raw_file,workpiece,workpiece_class,dielectric,special_process,polarity,design,source_twr_unit,conversion,note
+P01,Soundhar et al. 2019,P01_soundhar2019.csv,Ti-13Zr-13Nb,titanium,kerosene,none,negative,face-centred CCD (4 factors),g/min,divide by graphite density 1.77 g/cm3 (median of other studies; not reported),run 13 (centre point) is 2.1-3.4x its five replicates; machining time 20 min
+P06,Fatatit & Kalyon 2021,P06_fatatit2021.csv,DIN 1.2767,steel,kerosene,none,negative,3 electrodes x L9,mm3/min,none,Table 4 prints Ton levels as 50/200/200 us; the abstract gives 50/200/800 us (used) and the run codes use three distinct levels. TWR printed to 2 decimals; 3 runs printed as 0
+P10,Akincioglu 2022,P10_akincioglu2022.csv,Ti Grade 2,titanium,not stated,none,not stated,L9,g/min,divide by reported Cu density 8.9 g/cm3,
+P12,Reddy et al. 2016,P12_reddy2016.csv,AISI 304,steel,EDM oil,none,not stated,L9 (mean of 3),mm3/min,none,"balance resolution 0.1 g over 5 min equals 2.2 mm3/min, above every reported TWR"
+P13,Ram et al. 2025,P13_ram2025.csv,Inconel 718,nickel,EDM oil,Al2O3 powder-mixed; tool shape varied,not stated,L9 (incl. tool shape),mm3/min,none,
+P21,Bahgat et al. 2019,P21_bahgat2019.csv,AISI H13,steel,kerosene,none,positive,L9,EWR% and MRR (mm3/min),TWR = EWR% x MRR / 100,TWR derived
+H04,Chandrashekarappa et al. 2021,H04_chandrashekarappa2021.csv,"HcHcr steel (1.83% C, 12.45% Cr)",steel,distilled water / kerosene,none,positive,L18 (mean of 3),g/min,"divide by reported densities (graphite 1.77, Cu 8.904, brass 8.55 g/cm3)",Toff fixed at 50 us
+H05,Jagdale et al. 2025,H05_jagdale2025.csv,Ti6Al4V,titanium,EDM oil,none,not stated,3 electrodes x L9,mm3/min,none,
+H17,Surani et al. 2025,H17_surani2025.csv,X37CrMoV5-1 (1.2343),steel,EDM oil,none,positive,L9,mm3/min,none,
+H18,Hassan et al. 2023,H18_hassan2023.csv,AISI D2,steel,kerosene,none,reverse (as stated),L9,g/min,divide by Cu density 8.92 g/cm3 (median of other studies; not reported),duty cycle reported as 7-13%

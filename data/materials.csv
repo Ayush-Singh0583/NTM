@@ -1,0 +1,6 @@
+electrode,melting_point_c,thermal_conductivity_wmk,density_gcm3,source,values_reported_in_sources
+Copper,1083,391,8.92,median of values reported in P21 P10 P12 H04 H05,"Tm 1083/1083/1083/1083/1045 C; k 400/394/388/380 W/m K; rho 8.92/8.9/8.95/8.904/8.96 g/cm3"
+Graphite,3500,120,1.77,median of values reported in P21 H04 H05,"Tm 3350/3650 C (sublimation); k 90/195 (160-230)/120 W/m K; rho 1.72/1.77/1.85 g/cm3"
+Brass,940,159,8.73,median of values reported in P21 H04 H05,"Tm 927/990/940 C; k 111/159/160 W/m K; rho 8.77/8.55/8.73 g/cm3"
+CuCrZr,1075,320,8.89,ASM Handbook Vol. 2 (C18150),not reported in P06
+CuCo1Ni1Be,1060,220,8.80,ASM Handbook Vol. 2 (C17500 family),not reported in P06

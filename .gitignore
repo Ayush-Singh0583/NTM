@@ -1,0 +1,14 @@
+# Source articles are downloaded by src/fetch_sources.py and checked against data/sources.sha256;
+# they are third-party publications, so they are not redistributed here.
+data/sources/*
+!data/sources/.gitkeep
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+~$*.docx
+.DS_Store
+
+# office lock files
+.~lock.*#

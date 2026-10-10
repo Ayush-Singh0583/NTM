@@ -1,0 +1,61 @@
+model,study,rho
+Peak current only (ridge),H04,-0.14456175210861127
+Peak current only (ridge),H05,0.20098261974414128
+Peak current only (ridge),H17,0.9486832980505138
+Peak current only (ridge),H18,-0.3162277660168379
+Peak current only (ridge),P01,0.676994049901432
+Peak current only (ridge),P06,0.6199790475927651
+Peak current only (ridge),P10,0.9486832980505138
+Peak current only (ridge),P12,0.9486832980505138
+Peak current only (ridge),P13,0.07938841860374447
+Peak current only (ridge),P21,0.4743416490252569
+Ridge (base),H04,-0.8159272880509997
+Ridge (base),H05,-0.3001526857480423
+Ridge (base),H17,0.9166666666666666
+Ridge (base),H18,-0.3
+Ridge (base),P01,0.5306848090741112
+Ridge (base),P06,0.8708880945467389
+Ridge (base),P10,0.8499999999999999
+Ridge (base),P12,0.8166666666666667
+Ridge (base),P13,-0.10041928905068676
+Ridge (base),P21,0.6166666666666666
+Ridge (physics),H04,-0.6525350047657551
+Ridge (physics),H05,-0.13954199123789962
+Ridge (physics),H17,0.7999999999999999
+Ridge (physics),H18,-0.18333333333333335
+Ridge (physics),P01,0.6008344201625828
+Ridge (physics),P06,0.6397016904175854
+Ridge (physics),P10,0.8499999999999999
+Ridge (physics),P12,0.8166666666666667
+Ridge (physics),P13,0.2008385781013735
+Ridge (physics),P21,0.5499999999999999
+RF (physics),H04,-0.7786986665429694
+RF (physics),H05,-0.27450382959052905
+RF (physics),H17,0.3
+RF (physics),H18,-0.25
+RF (physics),P01,0.34591287173320995
+RF (physics),P06,0.5140515277134056
+RF (physics),P10,0.5666666666666667
+RF (physics),P12,0.9
+RF (physics),P13,-0.1338923854009157
+RF (physics),P21,0.6666666666666667
+SVR (physics),H04,-0.8924527878175067
+SVR (physics),H05,0.5621374307854994
+SVR (physics),H17,0.9333333333333332
+SVR (physics),H18,-0.25
+SVR (physics),P01,0.5635431560312021
+SVR (physics),P06,0.634749959867667
+SVR (physics),P10,0.9500000000000001
+SVR (physics),P12,0.8666666666666667
+SVR (physics),P13,-0.17573375583870185
+SVR (physics),P21,0.7166666666666667
+"XGBoost, monotone in Ip (physics)",H04,-0.7456065585358311
+"XGBoost, monotone in Ip (physics)",H05,-0.1725190920118453
+"XGBoost, monotone in Ip (physics)",H17,0.35
+"XGBoost, monotone in Ip (physics)",H18,-0.19999999999999998
+"XGBoost, monotone in Ip (physics)",P01,0.3688687031689857
+"XGBoost, monotone in Ip (physics)",P06,0.784539809002699
+"XGBoost, monotone in Ip (physics)",P10,0.41666666666666663
+"XGBoost, monotone in Ip (physics)",P12,0.8833333333333333
+"XGBoost, monotone in Ip (physics)",P13,-0.09205101496312953
+"XGBoost, monotone in Ip (physics)",P21,0.6

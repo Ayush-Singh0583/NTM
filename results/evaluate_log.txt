@@ -1,0 +1,166 @@
+        model features  random_r2  random_r2_sd  random_error_factor  random_error_factor_sd  lopo_r2  lopo_error_factor  lopo_median_rho  lopo_median_abs_bias  lopo_mm3_r2
+Mean baseline     base     -0.015         0.008                5.410                   0.043   -0.216              6.453              NaN                 0.860       -0.169
+Mean baseline  physics     -0.015         0.008                5.410                   0.043   -0.216              6.453              NaN                 0.860       -0.169
+        Ridge     base      0.423         0.004                3.354                   0.021    0.116              4.878            0.167                 0.674       -0.124
+        Ridge  physics      0.583         0.013                2.763                   0.033   -0.018              4.858            0.369                 0.237       -0.173
+           RF     base      0.561         0.008                2.684                   0.015   -0.265              6.481            0.018                 0.738       -0.192
+           RF  physics      0.609         0.020                2.391                   0.013   -0.252              6.644            0.026                 0.610       -0.136
+      XGBoost     base      0.547         0.019                2.792                   0.062   -0.274              6.644           -0.168                 0.736       -0.273
+      XGBoost  physics      0.610         0.020                2.510                   0.046   -0.280              6.489            0.166                 0.553       -0.167
+          ANN     base      0.494         0.006                3.018                   0.057   -0.085              5.530           -0.100                 0.519       -0.174
+          ANN  physics      0.579         0.048                2.366                   0.080   -0.409              6.835            0.038                 0.613       -0.245
+          SVR     base      0.494         0.019                2.819                   0.071   -0.090              6.056            0.100                 0.712       -0.137
+          SVR  physics      0.586         0.050                2.329                   0.108   -0.241              6.493            0.067                 0.647       -0.129
+      Stacked     base      0.385         0.017                3.563                   0.060   -0.189              6.154           -0.114                 0.759       -0.156
+      Stacked  physics      0.473         0.067                3.091                   0.233   -0.264              6.727            0.117                 0.809       -0.151
+
+best LOPO models: {'base': 'Ridge', 'physics': 'Ridge'}
+          model study  n  error_factor   rho  bias
+   Ridge (base)   H04 18          8.02 -0.20 -0.89
+   Ridge (base)   H05 27          4.79  0.15  0.27
+   Ridge (base)   H17  9          4.46  0.12  0.65
+   Ridge (base)   H18  9          2.48 -0.12 -0.25
+   Ridge (base)   P01 30          2.33  0.22 -0.25
+   Ridge (base)   P06 27          6.64  0.56  0.70
+   Ridge (base)   P10  9         13.21  0.02  1.12
+   Ridge (base)   P12  9          2.72  0.28 -0.39
+   Ridge (base)   P13  9          6.43  0.20  0.81
+   Ridge (base)   P21  9          9.49  0.18 -0.85
+Ridge (physics)   H04 18          6.19 -0.20 -0.64
+Ridge (physics)   H05 27          3.61 -0.23  0.03
+Ridge (physics)   H17  9          1.79  0.42 -0.07
+Ridge (physics)   H18  9          2.31 -0.12 -0.10
+Ridge (physics)   P01 30          2.30  0.43 -0.23
+Ridge (physics)   P06 27         23.79  0.41  1.38
+Ridge (physics)   P10  9          1.83  0.95  0.24
+Ridge (physics)   P12  9          1.98  0.48 -0.20
+Ridge (physics)   P13  9         12.80  0.15  1.11
+Ridge (physics)   P21  9         10.61  0.33 -0.85
+
+   model features  k  error_factor_model  error_factor_kmean  improvement_pct  frac_within_x2_model  frac_within_x2_kmean  win_rate
+  Ridge     base  1               4.196               3.315          -26.587                 0.373                 0.448     0.454
+  Ridge     base  2               3.547               2.882          -23.057                 0.372                 0.463     0.478
+  Ridge     base  3               3.335               2.725          -22.381                 0.391                 0.481     0.459
+  Ridge     base  5               3.216               2.592          -24.090                 0.394                 0.501     0.472
+  Ridge  physics  1               4.152               3.315          -25.258                 0.355                 0.448     0.458
+  Ridge  physics  2               3.469               2.882          -20.375                 0.387                 0.463     0.506
+  Ridge  physics  3               3.273               2.725          -20.137                 0.399                 0.481     0.497
+  Ridge  physics  5               3.150               2.592          -21.550                 0.407                 0.501     0.497
+Stacked  physics  1               4.372               3.315          -31.889                 0.362                 0.448     0.463
+Stacked  physics  2               3.679               2.882          -27.658                 0.372                 0.463     0.452
+Stacked  physics  3               3.445               2.725          -26.449                 0.387                 0.481     0.440
+Stacked  physics  5               3.296               2.592          -27.197                 0.398                 0.501     0.447
+
+              subset         model features  n_runs  n_studies  lopo_r2  lopo_error_factor  lopo_median_rho
+             no_H04 Mean baseline     base     138          9   -0.269              6.637              NaN
+             no_H04 Mean baseline  physics     138          9   -0.269              6.637              NaN
+             no_H04         Ridge     base     138          9   -0.031              6.026            0.470
+             no_H04         Ridge  physics     138          9   -0.586              7.888            0.563
+             no_H04            RF     base     138          9   -0.261              6.300            0.175
+             no_H04            RF  physics     138          9   -0.259              6.636            0.354
+             no_H04       XGBoost     base     138          9   -0.348              7.085            0.400
+             no_H04       XGBoost  physics     138          9   -0.725              9.139            0.433
+             no_H04           ANN     base     138          9   -0.055              5.721            0.500
+             no_H04           ANN  physics     138          9   -1.080             10.977            0.533
+             no_H04           SVR     base     138          9   -0.182              6.458            0.485
+             no_H04           SVR  physics     138          9   -0.206              6.637            0.482
+             no_H04       Stacked     base     138          9   -0.267              6.872            0.321
+             no_H04       Stacked  physics     138          9   -0.520              7.943            0.333
+       no_P01_run13 Mean baseline     base     155         10   -0.212              6.399              NaN
+       no_P01_run13 Mean baseline  physics     155         10   -0.212              6.399              NaN
+       no_P01_run13         Ridge     base     155         10    0.107              4.880            0.184
+       no_P01_run13         Ridge  physics     155         10   -0.027              4.848            0.375
+       no_P01_run13            RF     base     155         10   -0.227              6.310           -0.089
+       no_P01_run13            RF  physics     155         10   -0.218              6.427            0.036
+       no_P01_run13       XGBoost     base     155         10   -0.267              6.526           -0.145
+       no_P01_run13       XGBoost  physics     155         10   -0.279              6.487            0.133
+       no_P01_run13           ANN     base     155         10    0.005              5.240            0.000
+       no_P01_run13           ANN  physics     155         10   -0.427              6.816            0.142
+       no_P01_run13           SVR     base     155         10   -0.096              6.027            0.100
+       no_P01_run13           SVR  physics     155         10   -0.249              6.472            0.067
+       no_P01_run13       Stacked     base     155         10   -0.167              6.150           -0.051
+       no_P01_run13       Stacked  physics     155         10   -0.300              6.918            0.142
+             no_P12 Mean baseline     base     147          9   -0.234              7.115              NaN
+             no_P12 Mean baseline  physics     147          9   -0.234              7.115              NaN
+             no_P12         Ridge     base     147          9    0.140              4.932            0.033
+             no_P12         Ridge  physics     147          9   -0.066              5.229            0.333
+             no_P12            RF     base     147          9   -0.278              6.893           -0.024
+             no_P12            RF  physics     147          9   -0.171              6.575           -0.119
+             no_P12       XGBoost     base     147          9   -0.319              7.112           -0.136
+             no_P12       XGBoost  physics     147          9   -0.256              6.724            0.150
+             no_P12           ANN     base     147          9   -0.055              5.795           -0.003
+             no_P12           ANN  physics     147          9   -0.276              6.462            0.042
+             no_P12           SVR     base     147          9   -0.194              6.839           -0.121
+             no_P12           SVR  physics     147          9   -0.411              7.619            0.050
+             no_P12       Stacked     base     147          9   -0.274              7.059           -0.256
+             no_P12       Stacked  physics     147          9   -0.359              7.884            0.067
+       no_P13_pmedm Mean baseline     base     147          9   -0.236              6.492              NaN
+       no_P13_pmedm Mean baseline  physics     147          9   -0.236              6.492              NaN
+       no_P13_pmedm         Ridge     base     147          9    0.073              5.045            0.517
+       no_P13_pmedm         Ridge  physics     147          9    0.022              4.619            0.350
+       no_P13_pmedm            RF     base     147          9   -0.322              6.763            0.075
+       no_P13_pmedm            RF  physics     147          9   -0.203              6.057            0.009
+       no_P13_pmedm       XGBoost     base     147          9   -0.319              6.766           -0.133
+       no_P13_pmedm       XGBoost  physics     147          9   -0.418              6.787            0.200
+       no_P13_pmedm           ANN     base     147          9   -0.257              6.269           -0.017
+       no_P13_pmedm           ANN  physics     147          9   -0.614              8.446            0.158
+       no_P13_pmedm           SVR     base     147          9   -0.176              6.492           -0.050
+       no_P13_pmedm           SVR  physics     147          9   -0.298              6.650            0.050
+       no_P13_pmedm       Stacked     base     147          9   -0.260              6.599           -0.137
+       no_P13_pmedm       Stacked  physics     147          9   -0.404              7.611            0.197
+no_borrowed_density Mean baseline     base     117          8   -0.240              7.143              NaN
+no_borrowed_density Mean baseline  physics     117          8   -0.240              7.143              NaN
+no_borrowed_density         Ridge     base     117          8   -0.253              7.292           -0.059
+no_borrowed_density         Ridge  physics     117          8   -0.804              9.591            0.167
+no_borrowed_density            RF     base     117          8   -0.514              7.862            0.018
+no_borrowed_density            RF  physics     117          8   -0.654              9.452            0.167
+no_borrowed_density       XGBoost     base     117          8   -0.664              8.918           -0.233
+no_borrowed_density       XGBoost  physics     117          8   -0.845             10.361            0.323
+no_borrowed_density           ANN     base     117          8   -0.673              8.830           -0.175
+no_borrowed_density           ANN  physics     117          8   -0.966             12.133            0.133
+no_borrowed_density           SVR     base     117          8   -0.441              7.986            0.034
+no_borrowed_density           SVR  physics     117          8   -0.692              8.784            0.407
+no_borrowed_density       Stacked     base     117          8   -0.209              6.290            0.200
+no_borrowed_density       Stacked  physics     117          8   -0.312              6.559            0.142
+     no_derived_P21 Mean baseline     base     147          9   -0.257              6.522              NaN
+     no_derived_P21 Mean baseline  physics     147          9   -0.257              6.522              NaN
+     no_derived_P21         Ridge     base     147          9   -0.111              5.585            0.183
+     no_derived_P21         Ridge  physics     147          9   -0.318              6.431            0.193
+     no_derived_P21            RF     base     147          9   -0.336              7.160           -0.183
+     no_derived_P21            RF  physics     147          9   -0.251              6.466           -0.033
+     no_derived_P21       XGBoost     base     147          9   -0.430              7.264           -0.167
+     no_derived_P21       XGBoost  physics     147          9   -0.408              7.274           -0.050
+     no_derived_P21           ANN     base     147          9   -0.141              5.622            0.140
+     no_derived_P21           ANN  physics     147          9   -0.758              9.499           -0.075
+     no_derived_P21           SVR     base     147          9   -0.284              6.772            0.089
+     no_derived_P21           SVR  physics     147          9   -0.264              6.473            0.114
+     no_derived_P21       Stacked     base     147          9   -0.411              7.690           -0.133
+     no_derived_P21       Stacked  physics     147          9   -0.682              9.306           -0.209
+    no_printed_zero Mean baseline     base     153         10   -0.202              5.800              NaN
+    no_printed_zero Mean baseline  physics     153         10   -0.202              5.800              NaN
+    no_printed_zero         Ridge     base     153         10    0.106              4.525           -0.017
+    no_printed_zero         Ridge  physics     153         10    0.018              4.285            0.274
+    no_printed_zero            RF     base     153         10   -0.266              6.046           -0.029
+    no_printed_zero            RF  physics     153         10   -0.183              5.787           -0.062
+    no_printed_zero       XGBoost     base     153         10   -0.300              6.103           -0.218
+    no_printed_zero       XGBoost  physics     153         10   -0.294              6.136            0.192
+    no_printed_zero           ANN     base     153         10   -0.223              5.728           -0.084
+    no_printed_zero           ANN  physics     153         10   -0.220              5.323            0.019
+    no_printed_zero           SVR     base     153         10   -0.207              5.904            0.080
+    no_printed_zero           SVR  physics     153         10   -0.228              5.985            0.092
+    no_printed_zero       Stacked     base     153         10   -0.289              6.088           -0.110
+    no_printed_zero       Stacked  physics     153         10   -0.325              6.464            0.041
+ original_6_studies Mean baseline     base      93          6   -0.505             11.882              NaN
+ original_6_studies Mean baseline  physics      93          6   -0.505             11.882              NaN
+ original_6_studies         Ridge     base      93          6   -0.129              6.251            0.447
+ original_6_studies         Ridge  physics      93          6   -0.862             12.411            0.597
+ original_6_studies            RF     base      93          6   -0.253              8.894            0.188
+ original_6_studies            RF  physics      93          6   -0.212              7.860            0.620
+ original_6_studies       XGBoost     base      93          6   -0.218              7.559            0.347
+ original_6_studies       XGBoost  physics      93          6   -0.977             16.760            0.552
+ original_6_studies           ANN     base      93          6   -0.211              7.671            0.500
+ original_6_studies           ANN  physics      93          6   -1.188             19.296            0.352
+ original_6_studies           SVR     base      93          6    0.055              6.420            0.543
+ original_6_studies           SVR  physics      93          6   -0.393             10.535            0.295
+ original_6_studies       Stacked     base      93          6   -0.482             11.686            0.392
+ original_6_studies       Stacked  physics      93          6   -0.651             13.098            0.551

@@ -1,0 +1,157 @@
+study,run,workpiece,workpiece_class,electrode,ip_a,ton_us,toff_us,duty_pct,charge_uc,gap_voltage_v,dielectric,special_process,tool_shape,polarity,el_melting_c,el_conductivity_wmk,el_density_gcm3,el_thermal_index,twr_mm3min,log10_twr,printed_zero,twr_derived
+P01,1,Ti-13Zr-13Nb,titanium,Graphite,8,10,7.0,58.8235294117647,80,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,1.694915,0.2291479883578558,False,False
+P01,2,Ti-13Zr-13Nb,titanium,Graphite,12,8,9.0,47.05882352941177,96,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,3.954802,0.5971247736524502,False,False
+P01,3,Ti-13Zr-13Nb,titanium,Graphite,12,8,9.0,47.05882352941177,96,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.824859,0.45099673797421225,False,False
+P01,4,Ti-13Zr-13Nb,titanium,Graphite,8,6,7.0,46.15384615384615,48,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.259887,0.3540867249661558,False,False
+P01,5,Ti-13Zr-13Nb,titanium,Graphite,8,6,11.0,35.294117647058826,48,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,0.225989,-0.6459132750338442,False,False
+P01,6,Ti-13Zr-13Nb,titanium,Graphite,16,10,7.0,58.8235294117647,160,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,6.497175,0.812724573991805,False,False
+P01,7,Ti-13Zr-13Nb,titanium,Graphite,12,10,9.0,52.63157894736842,120,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,3.954802,0.5971247736524502,False,False
+P01,8,Ti-13Zr-13Nb,titanium,Graphite,16,6,11.0,35.294117647058826,96,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.259887,0.3540867249661558,False,False
+P01,9,Ti-13Zr-13Nb,titanium,Graphite,12,8,9.0,47.05882352941177,96,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,3.389831,0.530177984021837,False,False
+P01,10,Ti-13Zr-13Nb,titanium,Graphite,12,8,9.0,47.05882352941177,96,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,4.519774,0.6551167206301369,False,False
+P01,11,Ti-13Zr-13Nb,titanium,Graphite,8,6,11.0,35.294117647058826,48,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,0.225989,-0.6459132750338442,False,False
+P01,12,Ti-13Zr-13Nb,titanium,Graphite,16,10,11.0,47.61904761904762,160,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,6.610169,0.820212595384355,False,False
+P01,13,Ti-13Zr-13Nb,titanium,Graphite,12,8,9.0,47.05882352941177,96,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,9.60452,0.9824756550164673,False,False
+P01,14,Ti-13Zr-13Nb,titanium,Graphite,16,8,9.0,47.05882352941177,128,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,5.706215,0.7563481074208359,False,False
+P01,15,Ti-13Zr-13Nb,titanium,Graphite,12,8,9.0,47.05882352941177,96,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,3.954802,0.5971247736524502,False,False
+P01,16,Ti-13Zr-13Nb,titanium,Graphite,16,6,7.0,46.15384615384615,96,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,4.519774,0.6551167206301369,False,False
+P01,17,Ti-13Zr-13Nb,titanium,Graphite,12,8,7.0,53.333333333333336,96,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,4.519774,0.6551167206301369,False,False
+P01,18,Ti-13Zr-13Nb,titanium,Graphite,8,6,7.0,46.15384615384615,48,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.372881,0.37527602403609384,False,False
+P01,19,Ti-13Zr-13Nb,titanium,Graphite,16,6,7.0,46.15384615384615,96,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,5.932203,0.7732160327081314,False,False
+P01,20,Ti-13Zr-13Nb,titanium,Graphite,12,8,9.0,47.05882352941177,96,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,4.293785,0.6328403259189846,False,False
+P01,21,Ti-13Zr-13Nb,titanium,Graphite,8,10,11.0,47.61904761904762,80,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.429379,0.3854951892177799,False,False
+P01,22,Ti-13Zr-13Nb,titanium,Graphite,12,8,11.0,42.10526315789474,96,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,3.220339,0.5079015893106847,False,False
+P01,23,Ti-13Zr-13Nb,titanium,Graphite,12,6,9.0,40.0,72,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.485876,0.3954794101243808,False,False
+P01,24,Ti-13Zr-13Nb,titanium,Graphite,16,6,11.0,35.294117647058826,96,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,1.694915,0.2291479883578558,False,False
+P01,25,Ti-13Zr-13Nb,titanium,Graphite,8,10,7.0,58.8235294117647,80,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.20339,0.34309134066469255,False,False
+P01,26,Ti-13Zr-13Nb,titanium,Graphite,8,8,9.0,47.05882352941177,64,60.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.316384,0.3648105903579289,False,False
+P01,27,Ti-13Zr-13Nb,titanium,Graphite,12,8,9.0,47.05882352941177,96,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,4.80226,0.6814456593524861,False,False
+P01,28,Ti-13Zr-13Nb,titanium,Graphite,16,10,11.0,47.61904761904762,160,50.0,kerosene,False,,negative,3500,120,1.77,452778.0,6.045198,0.781410511323403,False,False
+P01,29,Ti-13Zr-13Nb,titanium,Graphite,16,10,7.0,58.8235294117647,160,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,7.514124,0.8758783746052792,False,False
+P01,30,Ti-13Zr-13Nb,titanium,Graphite,8,10,11.0,47.61904761904762,80,70.0,kerosene,False,,negative,3500,120,1.77,452778.0,2.033898,0.3083292344054806,False,False
+P06,1,DIN 1.2767,steel,CuCrZr,6,50,50.0,50.0,300,,kerosene,False,,negative,1075,320,8.89,431408.0,0.04,-1.3979400086720375,False,False
+P06,2,DIN 1.2767,steel,CuCrZr,6,200,200.0,50.0,1200,,kerosene,False,,negative,1075,320,8.89,431408.0,0.02,-1.6989700043360187,False,False
+P06,3,DIN 1.2767,steel,CuCrZr,6,800,800.0,50.0,4800,,kerosene,False,,negative,1075,320,8.89,431408.0,0.02,-1.6989700043360187,False,False
+P06,4,DIN 1.2767,steel,CuCrZr,12,50,200.0,20.0,600,,kerosene,False,,negative,1075,320,8.89,431408.0,0.25,-0.6020599913279624,False,False
+P06,5,DIN 1.2767,steel,CuCrZr,12,200,800.0,20.0,2400,,kerosene,False,,negative,1075,320,8.89,431408.0,0.27,-0.5686362358410126,False,False
+P06,6,DIN 1.2767,steel,CuCrZr,12,800,50.0,94.11764705882354,9600,,kerosene,False,,negative,1075,320,8.89,431408.0,0.02,-1.6989700043360187,False,False
+P06,7,DIN 1.2767,steel,CuCrZr,25,50,800.0,5.882352941176471,1250,,kerosene,False,,negative,1075,320,8.89,431408.0,1.74,0.24054924828259971,False,False
+P06,8,DIN 1.2767,steel,CuCrZr,25,200,50.0,80.0,5000,,kerosene,False,,negative,1075,320,8.89,431408.0,0.48,-0.3187587626244128,False,False
+P06,9,DIN 1.2767,steel,CuCrZr,25,800,200.0,80.0,20000,,kerosene,False,,negative,1075,320,8.89,431408.0,0.08,-1.0969100130080565,False,False
+P06,10,DIN 1.2767,steel,Copper,6,50,50.0,50.0,300,,kerosene,False,,negative,1083,391,8.92,530254.65,0.02,-1.6989700043360187,False,False
+P06,11,DIN 1.2767,steel,Copper,6,200,200.0,50.0,1200,,kerosene,False,,negative,1083,391,8.92,530254.65,0.0025,-2.6020599913279625,True,False
+P06,12,DIN 1.2767,steel,Copper,6,800,800.0,50.0,4800,,kerosene,False,,negative,1083,391,8.92,530254.65,0.02,-1.6989700043360187,False,False
+P06,13,DIN 1.2767,steel,Copper,12,50,200.0,20.0,600,,kerosene,False,,negative,1083,391,8.92,530254.65,0.19,-0.721246399047171,False,False
+P06,14,DIN 1.2767,steel,Copper,12,200,800.0,20.0,2400,,kerosene,False,,negative,1083,391,8.92,530254.65,0.0025,-2.6020599913279625,True,False
+P06,15,DIN 1.2767,steel,Copper,12,800,50.0,94.11764705882354,9600,,kerosene,False,,negative,1083,391,8.92,530254.65,0.02,-1.6989700043360187,False,False
+P06,16,DIN 1.2767,steel,Copper,25,50,800.0,5.882352941176471,1250,,kerosene,False,,negative,1083,391,8.92,530254.65,1.24,0.09342168516223506,False,False
+P06,17,DIN 1.2767,steel,Copper,25,200,50.0,80.0,5000,,kerosene,False,,negative,1083,391,8.92,530254.65,0.18,-0.744727494896694,False,False
+P06,18,DIN 1.2767,steel,Copper,25,800,200.0,80.0,20000,,kerosene,False,,negative,1083,391,8.92,530254.65,0.03,-1.5228787452803376,False,False
+P06,19,DIN 1.2767,steel,CuCo1Ni1Be,6,50,50.0,50.0,300,,kerosene,False,,negative,1060,220,8.8,293293.0,0.19,-0.721246399047171,False,False
+P06,20,DIN 1.2767,steel,CuCo1Ni1Be,6,200,200.0,50.0,1200,,kerosene,False,,negative,1060,220,8.8,293293.0,0.02,-1.6989700043360187,False,False
+P06,21,DIN 1.2767,steel,CuCo1Ni1Be,6,800,800.0,50.0,4800,,kerosene,False,,negative,1060,220,8.8,293293.0,0.0025,-2.6020599913279625,True,False
+P06,22,DIN 1.2767,steel,CuCo1Ni1Be,12,50,200.0,20.0,600,,kerosene,False,,negative,1060,220,8.8,293293.0,1.8,0.25527250510330607,False,False
+P06,23,DIN 1.2767,steel,CuCo1Ni1Be,12,200,800.0,20.0,2400,,kerosene,False,,negative,1060,220,8.8,293293.0,0.14,-0.8538719643217619,False,False
+P06,24,DIN 1.2767,steel,CuCo1Ni1Be,12,800,50.0,94.11764705882354,9600,,kerosene,False,,negative,1060,220,8.8,293293.0,0.02,-1.6989700043360187,False,False
+P06,25,DIN 1.2767,steel,CuCo1Ni1Be,25,50,800.0,5.882352941176471,1250,,kerosene,False,,negative,1060,220,8.8,293293.0,0.26,-0.585026652029182,False,False
+P06,26,DIN 1.2767,steel,CuCo1Ni1Be,25,200,50.0,80.0,5000,,kerosene,False,,negative,1060,220,8.8,293293.0,2.43,0.38560627359831223,False,False
+P06,27,DIN 1.2767,steel,CuCo1Ni1Be,25,800,200.0,80.0,20000,,kerosene,False,,negative,1060,220,8.8,293293.0,0.11,-0.958607314841775,False,False
+P10,1,Ti Grade 2,titanium,Copper,8,120,40.0,75.0,960,,not stated,False,,not stated,1083,391,8.92,530254.65,0.007915,-2.1015706593496732,False,False
+P10,2,Ti Grade 2,titanium,Copper,12,120,44.0,73.17073170731707,1440,,not stated,False,,not stated,1083,391,8.92,530254.65,0.024344,-1.6136112678344425,False,False
+P10,3,Ti Grade 2,titanium,Copper,16,120,48.0,71.42857142857143,1920,,not stated,False,,not stated,1083,391,8.92,530254.65,0.05342,-1.2722942893947597,False,False
+P10,4,Ti Grade 2,titanium,Copper,12,122,40.0,75.30864197530865,1464,,not stated,False,,not stated,1083,391,8.92,530254.65,0.027447,-1.5615020953210847,False,False
+P10,5,Ti Grade 2,titanium,Copper,16,122,44.0,73.49397590361446,1952,,not stated,False,,not stated,1083,391,8.92,530254.65,0.053069,-1.2751628658557566,False,False
+P10,6,Ti Grade 2,titanium,Copper,8,122,48.0,71.76470588235294,976,,not stated,False,,not stated,1083,391,8.92,530254.65,0.007485,-2.1257853782897547,False,False
+P10,7,Ti Grade 2,titanium,Copper,16,124,40.0,75.60975609756098,1984,,not stated,False,,not stated,1083,391,8.92,530254.65,0.056858,-1.2452051595824245,False,False
+P10,8,Ti Grade 2,titanium,Copper,8,124,44.0,73.80952380952381,992,,not stated,False,,not stated,1083,391,8.92,530254.65,0.008097,-2.091695748858363,False,False
+P10,9,Ti Grade 2,titanium,Copper,12,124,48.0,72.09302325581395,1488,,not stated,False,,not stated,1083,391,8.92,530254.65,0.024699,-1.607322803113903,False,False
+P12,1,AISI 304,steel,Copper,8,50,35.0,58.8235294117647,400,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.11,-0.958607314841775,False,False
+P12,2,AISI 304,steel,Copper,8,100,65.0,60.60606060606061,800,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.22,-0.6575773191777937,False,False
+P12,3,AISI 304,steel,Copper,8,150,95.0,61.224489795918366,1200,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.32,-0.494850021680094,False,False
+P12,4,AISI 304,steel,Copper,16,50,65.0,43.47826086956522,800,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.44,-0.3565473235138126,False,False
+P12,5,AISI 304,steel,Copper,16,100,95.0,51.282051282051285,1600,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.52,-0.2839966563652008,False,False
+P12,6,AISI 304,steel,Copper,16,150,35.0,81.08108108108108,2400,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.59,-0.22914798835785583,False,False
+P12,7,AISI 304,steel,Copper,24,50,95.0,34.48275862068966,1200,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.67,-0.17392519729917352,False,False
+P12,8,AISI 304,steel,Copper,24,100,35.0,74.07407407407408,2400,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.78,-0.10790539730951959,False,False
+P12,9,AISI 304,steel,Copper,24,150,65.0,69.76744186046511,3600,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.76,-0.11918640771920865,False,False
+P13,1,Inconel 718,nickel,Copper,25,20,3.0,86.95652173913044,500,,EDM oil,True,Circular,not stated,1083,391,8.92,530254.65,0.06,-1.2218487496163564,False,False
+P13,2,Inconel 718,nickel,Copper,25,25,6.0,80.64516129032258,625,,EDM oil,True,Square,not stated,1083,391,8.92,530254.65,0.03,-1.5228787452803376,False,False
+P13,3,Inconel 718,nickel,Copper,25,30,9.0,76.92307692307692,750,,EDM oil,True,Hexagonal,not stated,1083,391,8.92,530254.65,0.22,-0.6575773191777937,False,False
+P13,4,Inconel 718,nickel,Copper,30,20,6.0,76.92307692307692,600,,EDM oil,True,Hexagonal,not stated,1083,391,8.92,530254.65,0.58,-0.23657200643706278,False,False
+P13,5,Inconel 718,nickel,Copper,30,25,9.0,73.52941176470588,750,,EDM oil,True,Circular,not stated,1083,391,8.92,530254.65,0.27,-0.5686362358410126,False,False
+P13,6,Inconel 718,nickel,Copper,30,30,3.0,90.9090909090909,900,,EDM oil,True,Square,not stated,1083,391,8.92,530254.65,0.03,-1.5228787452803376,False,False
+P13,7,Inconel 718,nickel,Copper,35,20,9.0,68.96551724137932,700,,EDM oil,True,Square,not stated,1083,391,8.92,530254.65,0.19,-0.721246399047171,False,False
+P13,8,Inconel 718,nickel,Copper,35,25,3.0,89.28571428571429,875,,EDM oil,True,Hexagonal,not stated,1083,391,8.92,530254.65,0.14,-0.8538719643217619,False,False
+P13,9,Inconel 718,nickel,Copper,35,30,6.0,83.33333333333333,1050,,EDM oil,True,Circular,not stated,1083,391,8.92,530254.65,0.05,-1.3010299956639813,False,False
+P21,1,AISI H13,steel,Graphite,2,50,,50.0,100,,kerosene,False,,positive,3500,120,1.77,452778.0,1.162739,0.0654821648925424,False,True
+P21,2,AISI H13,steel,Graphite,6,150,,50.0,900,,kerosene,False,,positive,3500,120,1.77,452778.0,1.937814,0.2873119861074589,False,True
+P21,3,AISI H13,steel,Graphite,14,500,,50.0,7000,,kerosene,False,,positive,3500,120,1.77,452778.0,1.162715,0.06547322297288521,False,True
+P21,4,AISI H13,steel,Copper,2,150,,50.0,300,,kerosene,False,,positive,1083,391,8.92,530254.65,0.04487,-1.348043736887971,False,True
+P21,5,AISI H13,steel,Copper,6,500,,50.0,3000,,kerosene,False,,positive,1083,391,8.92,530254.65,1.188355,0.07494632571921864,False,True
+P21,6,AISI H13,steel,Copper,14,50,,50.0,700,,kerosene,False,,positive,1083,391,8.92,530254.65,26.748803,1.4273043480377015,False,True
+P21,7,AISI H13,steel,Brass,2,500,,50.0,1000,,kerosene,False,,positive,940,159,8.73,192890.85,2.098186,0.3218440387191397,False,True
+P21,8,AISI H13,steel,Brass,6,50,,50.0,300,,kerosene,False,,positive,940,159,8.73,192890.85,23.568668,1.3723350464962283,False,True
+P21,9,AISI H13,steel,Brass,14,150,,50.0,2100,,kerosene,False,,positive,940,159,8.73,192890.85,33.447183,1.5243595436200534,False,True
+H04,1,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Graphite,3,50,50.0,50.0,150,,distilled water,False,,positive,3500,120,1.77,452778.0,16.949153,1.2291479883578558,False,False
+H04,2,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Copper,3,75,50.0,60.0,225,,distilled water,False,,positive,1083,391,8.92,530254.65,5.615454,0.749384853009367,False,False
+H04,3,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Brass,3,100,50.0,66.66666666666667,300,,distilled water,False,,positive,940,159,8.73,192890.85,1.403509,0.14721513131945216,False,False
+H04,4,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Graphite,6,50,50.0,50.0,300,,distilled water,False,,positive,3500,120,1.77,452778.0,14.124294,1.1499667423102309,False,False
+H04,5,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Copper,6,75,50.0,60.0,450,,distilled water,False,,positive,1083,391,8.92,530254.65,1.347709,0.12959609472097297,False,False
+H04,6,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Brass,6,100,50.0,66.66666666666667,600,,distilled water,False,,positive,940,159,8.73,192890.85,1.169591,0.06803388527182734,False,False
+H04,7,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Copper,9,50,50.0,50.0,450,,distilled water,False,,positive,1083,391,8.92,530254.65,1.684636,0.22650610772902935,False,False
+H04,8,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Brass,9,75,50.0,60.0,675,,distilled water,False,,positive,940,159,8.73,192890.85,1.169591,0.06803388527182734,False,False
+H04,9,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Graphite,9,100,50.0,66.66666666666667,900,,distilled water,False,,positive,3500,120,1.77,452778.0,7.909605,0.8981547693164313,False,False
+H04,10,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Brass,3,50,50.0,50.0,150,,kerosene,False,,positive,940,159,8.73,192890.85,1.169591,0.06803388527182734,False,False
+H04,11,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Graphite,3,75,50.0,60.0,225,,kerosene,False,,positive,3500,120,1.77,452778.0,12.429379,1.0944494144603996,False,False
+H04,12,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Copper,3,100,50.0,66.66666666666667,300,,kerosene,False,,positive,1083,391,8.92,530254.65,5.053908,0.7036273624486917,False,False
+H04,13,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Copper,6,50,50.0,50.0,300,,kerosene,False,,positive,1083,391,8.92,530254.65,1.909254,0.280863770051622,False,False
+H04,14,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Brass,6,75,50.0,60.0,450,,kerosene,False,,positive,940,159,8.73,192890.85,2.222222,0.34678748622465627,False,False
+H04,15,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Graphite,6,100,50.0,66.66666666666667,600,,kerosene,False,,positive,3500,120,1.77,452778.0,9.039548,0.9561467162941182,False,False
+H04,16,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Brass,9,50,50.0,50.0,450,,kerosene,False,,positive,940,159,8.73,192890.85,1.637427,0.21416192095006537,False,False
+H04,17,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Graphite,9,75,50.0,60.0,675,,kerosene,False,,positive,3500,120,1.77,452778.0,10.169492,1.0072992387414994,False,False
+H04,18,"HcHcr steel (1.83% C, 12.45% Cr)",steel,Copper,9,100,50.0,66.66666666666667,900,,kerosene,False,,positive,1083,391,8.92,530254.65,2.358491,0.3726341434072674,False,False
+H05,C1,Ti6Al4V,titanium,Copper,10,4,3.0,57.142857142857146,40,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.75,-0.12493873660829993,False,False
+H05,B1,Ti6Al4V,titanium,Brass,10,4,3.0,57.142857142857146,40,,EDM oil,False,,not stated,940,159,8.73,192890.85,1.17,0.06818586174616162,False,False
+H05,G1,Ti6Al4V,titanium,Graphite,10,4,3.0,57.142857142857146,40,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.49,-0.3098039199714863,False,False
+H05,C2,Ti6Al4V,titanium,Copper,15,4,6.0,40.0,60,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.84,-0.07572071393811836,False,False
+H05,B2,Ti6Al4V,titanium,Brass,15,4,6.0,40.0,60,,EDM oil,False,,not stated,940,159,8.73,192890.85,1.46,0.1643528557844371,False,False
+H05,G2,Ti6Al4V,titanium,Graphite,15,4,6.0,40.0,60,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.4,-0.3979400086720376,False,False
+H05,C3,Ti6Al4V,titanium,Copper,20,4,9.0,30.76923076923077,80,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.97,-0.01322826573375516,False,False
+H05,B3,Ti6Al4V,titanium,Brass,20,4,9.0,30.76923076923077,80,,EDM oil,False,,not stated,940,159,8.73,192890.85,1.65,0.21748394421390624,False,False
+H05,G3,Ti6Al4V,titanium,Graphite,20,4,9.0,30.76923076923077,80,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.34,-0.46852108295774486,False,False
+H05,C4,Ti6Al4V,titanium,Copper,15,7,3.0,70.0,105,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.92,-0.03621217265444471,False,False
+H05,B4,Ti6Al4V,titanium,Brass,15,7,3.0,70.0,105,,EDM oil,False,,not stated,940,159,8.73,192890.85,1.53,0.1846914308175988,False,False
+H05,G4,Ti6Al4V,titanium,Graphite,15,7,3.0,70.0,105,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.49,-0.3098039199714863,False,False
+H05,C5,Ti6Al4V,titanium,Copper,20,7,6.0,53.84615384615385,140,,EDM oil,False,,not stated,1083,391,8.92,530254.65,1.01,0.004321373782642578,False,False
+H05,B5,Ti6Al4V,titanium,Brass,20,7,6.0,53.84615384615385,140,,EDM oil,False,,not stated,940,159,8.73,192890.85,1.69,0.22788670461367355,False,False
+H05,G5,Ti6Al4V,titanium,Graphite,20,7,6.0,53.84615384615385,140,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.47,-0.3279021420642826,False,False
+H05,C6,Ti6Al4V,titanium,Copper,10,7,9.0,43.75,70,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.59,-0.22914798835785583,False,False
+H05,B6,Ti6Al4V,titanium,Brass,10,7,9.0,43.75,70,,EDM oil,False,,not stated,940,159,8.73,192890.85,1.14,0.05690485133647255,False,False
+H05,G6,Ti6Al4V,titanium,Graphite,10,7,9.0,43.75,70,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.42,-0.37675070960209955,False,False
+H05,C7,Ti6Al4V,titanium,Copper,20,10,3.0,76.92307692307692,200,,EDM oil,False,,not stated,1083,391,8.92,530254.65,1.03,0.012837224705172217,False,False
+H05,B7,Ti6Al4V,titanium,Brass,20,10,3.0,76.92307692307692,200,,EDM oil,False,,not stated,940,159,8.73,192890.85,2.04,0.3096301674258988,False,False
+H05,G7,Ti6Al4V,titanium,Graphite,20,10,3.0,76.92307692307692,200,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.59,-0.22914798835785583,False,False
+H05,C8,Ti6Al4V,titanium,Copper,10,10,6.0,62.5,100,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.81,-0.09151498112135022,False,False
+H05,B8,Ti6Al4V,titanium,Brass,10,10,6.0,62.5,100,,EDM oil,False,,not stated,940,159,8.73,192890.85,1.38,0.13987908640123647,False,False
+H05,G8,Ti6Al4V,titanium,Graphite,10,10,6.0,62.5,100,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.52,-0.2839966563652008,False,False
+H05,C9,Ti6Al4V,titanium,Copper,15,10,9.0,52.63157894736842,150,,EDM oil,False,,not stated,1083,391,8.92,530254.65,0.96,-0.017728766960431602,False,False
+H05,B9,Ti6Al4V,titanium,Brass,15,10,9.0,52.63157894736842,150,,EDM oil,False,,not stated,940,159,8.73,192890.85,1.64,0.21484384804769785,False,False
+H05,G9,Ti6Al4V,titanium,Graphite,15,10,9.0,52.63157894736842,150,,EDM oil,False,,not stated,3500,120,1.77,452778.0,0.46,-0.3372421683184259,False,False
+H17,1,X37CrMoV5-1 (1.2343),steel,Copper,3,100,,28.0,300,30.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.0232,-1.6345120151091004,False,False
+H17,2,X37CrMoV5-1 (1.2343),steel,Copper,3,155,,26.0,465,40.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.0255,-1.5934598195660448,False,False
+H17,3,X37CrMoV5-1 (1.2343),steel,Copper,3,210,,19.0,630,50.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.0224,-1.6497519816658373,False,False
+H17,4,X37CrMoV5-1 (1.2343),steel,Copper,6,100,,26.0,600,50.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.0499,-1.30189945437661,False,False
+H17,5,X37CrMoV5-1 (1.2343),steel,Copper,6,155,,19.0,930,30.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.0535,-1.2716462179787715,False,False
+H17,6,X37CrMoV5-1 (1.2343),steel,Copper,6,210,,28.0,1260,40.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.0673,-1.171984935776023,False,False
+H17,7,X37CrMoV5-1 (1.2343),steel,Copper,9,100,,19.0,900,40.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.1769,-0.7522721670902769,False,False
+H17,8,X37CrMoV5-1 (1.2343),steel,Copper,9,155,,28.0,1395,50.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.1132,-0.9461535731477474,False,False
+H17,9,X37CrMoV5-1 (1.2343),steel,Copper,9,210,,26.0,1890,30.0,EDM oil,False,,positive,1083,391,8.92,530254.65,0.0936,-1.0287241512618948,False,False
+H18,1,AISI D2,steel,Copper,10,80,,7.0,800,55.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.255605,-0.5924300073756693,False,False
+H18,2,AISI D2,steel,Copper,10,120,,10.0,1200,60.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.553812,-0.2566379054524762,False,False
+H18,3,AISI D2,steel,Copper,10,160,,13.0,1600,65.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.725448,-0.13939345455391555,False,False
+H18,4,AISI D2,steel,Copper,14,120,,13.0,1680,55.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.173094,-0.7617175583764058,False,False
+H18,5,AISI D2,steel,Copper,14,160,,7.0,2240,60.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.395673,-0.40266397302143914,False,False
+H18,6,AISI D2,steel,Copper,14,80,,10.0,1120,65.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.710762,-0.14827559649439034,False,False
+H18,7,AISI D2,steel,Copper,18,160,,10.0,2880,55.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.041682,-1.3800554689402433,False,False
+H18,8,AISI D2,steel,Copper,18,80,,13.0,1440,60.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.360516,-0.4430758235028589,False,False
+H18,9,AISI D2,steel,Copper,18,120,,7.0,2160,65.0,kerosene,False,,reverse (as stated),1083,391,8.92,530254.65,0.616592,-0.21000216488187923,False,False
