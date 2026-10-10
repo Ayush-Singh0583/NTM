@@ -496,12 +496,12 @@ def build():
     st.font.name, st.font.size = FONT, Pt(10)
     st.element.rPr.rFonts.set(qn("w:eastAsia"), FONT)
     W = Writer(doc, N)
-    authors = [("Adithya D", "Dept. of Information Science and Engineering"),
-               ("Billava Srujan Macha", "Dept. of Information Science and Engineering"),
-               ("Ayush Singh", "Dept. of Information Science and Engineering"),
-               (GUIDE, "[Designation], Dept. of Information Science and Engineering")]
+    authors = [("Adithya D", "Dept. of Information Science and Engineering", "adithyadevaraj1001@gmail.com"),
+               ("Billava Srujan Macha", "Dept. of Information Science and Engineering", "billavasrujan@gmail.com"),
+               ("Ayush Singh", "Dept. of Information Science and Engineering", "ayushsingh10580@gmail.com"),
+               (GUIDE, "Assistant Professor, Dept. of Mechanical Engineering", "Kshanthala2@gmail.com")]
     cp = doc.core_properties  # replace python-docx's template defaults
-    cp.title, cp.author = TITLE, ", ".join(a for a, _ in authors)
+    cp.title, cp.author = TITLE, ", ".join(a[0] for a in authors)
     cp.last_modified_by, cp.comments, cp.subject, cp.category = "Ayush Singh", "", "", ""
     cp.keywords = "electrical discharge machining; tool wear rate; machine learning; grouped cross-validation"
     cp.created = cp.modified = datetime.now()
@@ -510,11 +510,11 @@ def build():
     W.para(TITLE, size=22, align=WD_ALIGN_PARAGRAPH.CENTER, indent=0, after=10)
     t = doc.add_table(rows=1, cols=4)
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
-    for j, (name, dept) in enumerate(authors):
+    for j, (name, dept, email) in enumerate(authors):
         c = t.cell(0, j)
         c.text = ""
         for k, (txt, sz) in enumerate([(name, 10), (dept, 9), ("RV Institute of Technology and Management", 9),
-                                       ("Bengaluru, India", 9), ("[email]", 9)]):
+                                       ("Bengaluru, India", 9), (email, 9)]):
             p = c.paragraphs[0] if k == 0 else c.add_paragraph()
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             p.paragraph_format.space_after = Pt(0)
@@ -906,7 +906,7 @@ def build():
     W.heading("Data and Code Availability")
     W.para("The compiled dataset, the per-study raw tables, the extraction and checking scripts, a download script "
            "and checksums for the source articles, the analysis code and all result files are available at "
-           "[repository URL].", indent=0)
+           "https://github.com/Ayush-Singh0583/NTM.", indent=0)
     W.heading("Acknowledgment")
     W.para(f"The authors thank {GUIDE} for guidance.", indent=0)
     W.heading("References")
